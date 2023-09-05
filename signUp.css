@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #1A1E24;
+}
+
+header {
+    background-color: #1A1E24;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+    align-items: center;
+    color:white;
+    font: 20px bold;
+    position: relative;
+}
+
+.hold {
+    width: 70%;
+    position: relative;
+}
+
+.Any {
+    position: absolute;
+    top: -10px;
+}
+
+.Any::before {
+    content: "";
+    background-color: rgb(32, 122, 224);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    left: -33px;
+}
+
+.nav {
+    position: absolute;
+    left: 150px;
+    color: rgb(130, 133, 136);
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px; 
+    margin-right: 20px;
+    left: 100px;
+}
+
+.home {
+    position: absolute;
+    top: -10px;
+    color: rgb(130, 133, 136);
+}
+
+.join {
+    position: absolute;
+    left: 350px;
+    top: -9px;
+    width: 150px;
+}
+
+/* start word */
+
+section {
+    padding: 47px;
+}
+
+
+.start {
+    color:rgb(130, 133, 136);
+    font: 20px bold;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.new {
+    color: white;
+    font: 46px bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.circle {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color:rgb(32, 122, 224);
+}
+
+.Already {
+    padding-top: 10px;
+    color:rgb(130, 133, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px bold;
+    text-transform: capitalize;
+}
+
+.log {
+    color:  rgb(32, 122, 224);
+}
+
+/* form */
+
+.name {
+    display: inline-block;
+    position: relative;
+}
+
+.first {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3A3C49;
+    padding: 9px;
+    margin-top: 42px;
+    color: white;
+    border: 1px solid;
+}
+
+i {
+    background-image: url(images/Profile.png);
+    display: inline-block;
+    position: absolute;
+    top: 66px;
+    left: 25px;
+}
+
+.last {
+    display: inline-block;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3A3C49;
+    padding: 9px;
+    margin-top: 42px;
+    margin-left: 40px;
+    color: white;
+    border: 1px solid;
+}
+
+.email {
+    background-color: #3A3C49;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.email2 {
+    padding: 10px;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #3A3C49;
+}
+
+.pass {
+    background-color: #3A3C49;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    color: white;
+    border: 1px solid;
+}
+
+.bu1 {
+    background-color: rgb(112 116 120);
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    transition: 0.3s;
+}
+
+.bu2 {
+    background-color:rgb(32, 122, 224);
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 30px;
+    border: none;
+    transition: 0.3s;
+    color: white;
+}
+
+.bu1:hover,
+.bu2:hover {
+    border: 2px solid white;
+    width: 140px;
+    height: 50px;
+}
+
+@media (max-width: 767px){
+    .Any {
+        left: -12px;
+    }
+    .nav {
+        left: 20px;
+        top: 3px;
+    }
+    .join {
+        left: 190px;
+    }
+    .new {
+        font: 38px bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    section {
+        padding: 30px;
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+    .start {
+        font: 29px bold;
+    }
+    .Already {
+        font: 25px bold;
+    }
+    .name {
+        display: block;
+        margin-top: 65px;
+    }
+    .last {
+        display: block;
+        width: 330px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .first {
+        display: block;
+        width: 330px;
+    }
+    .email {
+        margin-top: -5px;
+        width: 330px;
+    }
+    .email2 {
+        width: 330px;
+    }
+    .pas {
+        margin-top: 0px;
+    }
+    .pass {
+        width: 330px;
+    }
+    .bu1 {
+        width: 130px;
+        margin-left: 10px;
+    }
+    .bu2 {
+        width: 130px;
+    }
+}
+
+@media (min-width: 768px){
+    .hold {
+        margin-left: 25px;
+        font-size: 30px;
+    }
+    .Any::before {
+        width: 30px;
+        height: 30px;
+        top: 3px;
+    }
+    .nav {
+        left: 175px;
+        top: 5px;
+    }
+    .join {
+        left: 285px;
+    }    
+    .start {
+        font: 30px bold;
+        padding-bottom: 15px;
+        text-transform: capitalize;
+    }
+    .new {
+        font: 65px bold;
+    }
+    .circle {
+        width: 11px;
+        height: 11px;
+    }
+    .Already {
+        padding-top: 20px;
+        font: 30px bold;
+    }
+    .name {
+        display: block;
+    }
+    .first {
+        width: 330px;
+        height: 60px;
+        font-size: 22px;
+    }
+    .last {
+        width: 330px;
+        height: 60px;
+        font-size: 22px;
+    }
+    .email{
+        width: 675px;
+    }
+    .email2 {
+        width: 700px;
+        height: 60px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .pass {
+        width: 700px;
+        height: 60px;
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    .bu1 {
+        width: 325px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .bu2 {
+        width: 325px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .bu1:hover,
+    .bu2:hover {
+        width: 335px;
+        height: 65px;
+    }
+}
